@@ -2,7 +2,7 @@
 "use client";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default function CategoryProduct({ product }: any) {
+export default function ProductCategory({ product }: any) {
     return (
         <div className="min-w-[230px] sm:w-[22%]  md:w-[22%] w-[100%] bg-white shadow-lg rounded-lg overflow-hidden my-4 p-4 mx-auto">
             <img

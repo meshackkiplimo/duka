@@ -1,13 +1,13 @@
 "use client";
 import { createContext, useState, useEffect, ReactNode, useContext } from 'react';
 
-// Define types for the context state
+
 interface Product {
   id: number;
   title: string;
   image: string;
   price: number;
-  // Add any other product fields here
+ 
 }
 
 interface AppContextType {

@@ -3,9 +3,9 @@
 
 import { useEffect, useState } from "react";
 import { useAppContext } from "@/context/AppContext";
-import CategoryBanner from "./CategoryBanner";
-import CategoryDetails from "./CategoryDetails";
-import CategoryProductList from "./CategoryProductList";
+import CategoryBanner from "./ProductCard";
+import CategoryDetails from "./ProductDetail";
+import CategoryProductList from "./Productlist";
 
 interface CategoryProps {
     category: string;

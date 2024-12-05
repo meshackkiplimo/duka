@@ -12,10 +12,10 @@ import address from '../../assets/164734e4b0c2ba5fa5cfdc675c78ee59.png';
 import location from '../../assets/location.svg';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default function CategoryDetails({ category }: any) {
+export default function ProductDetail({ category }: any) {
 
     return (
-        <div className="">
+        <div className="text-black">
             <h1 className='text-[#FF8307]  text-[30px] font-bold leading-[53px] text-left  decoration-skip-[ink] lg:text-[30px] lg:leading-[53px] sm:text-[10px] sm:leading-[10px]'>{category}</h1>
             <div className='flex flex-row py-1'>
                 <Image
@@ -24,9 +24,9 @@ export default function CategoryDetails({ category }: any) {
                     width={20}
                     height={20}
                 />
-                <div className='px-3'>Verified</div>
+                <div className='px-3 text-black '>Verified</div>
             </div>
-            <div className='flex flex-row py-1'>
+            <div className='flex flex-row py-1 text-black'>
                 <Image
                     src={phone}
                     alt="phone"
@@ -42,7 +42,7 @@ export default function CategoryDetails({ category }: any) {
                     width={20}
                     height={20}
                 />
-                <div className='px-3'>600 Followers</div>
+                <div className='px-3  text-black ' >600 Followers</div>
                 <button className='px-2 mx-6 text-white rounded bg-[#FF8307]'>Follow</button>
             </div>
             <div className='flex flex-row py-1'>
